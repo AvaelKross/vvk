@@ -1,0 +1,505 @@
+@media screen and (max-width: 1100px) {
+/*rews*/
+    #rews ul{
+        width: auto;
+        padding: 0;
+    }
+    #rews ul li{
+        width: 25%;
+    }
+    #rews img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 980px) {
+    #pagewrap,  .container, .ar-screen, .header, .rews {
+       width: 100%;
+    }
+    body{
+        padding-top: 0;
+    }
+/*header*/
+    .header{
+        position: relative;
+        padding: 20px 0;
+    }
+    .header .col-xs-10{
+        width: 100%;
+    }
+    .header .col-xs-12{
+        padding: 0;
+    }
+
+    .header .nav > li > a{
+        font-size: 1.1em;
+    }
+
+    .ar-main-nav li{
+        margin-left: 25px;
+    }
+
+    .ar-main-nav li:last-child{
+        margin-left: 0;
+    }
+/*Slogan*/
+    .hero .ar-slogan{
+        width: auto;
+        padding: 0 15px 0 30%;
+    }
+/*first-form*/
+    .ar-get-call-form.-bordered{
+        margin: 0 15px;
+    }
+    form{
+        text-align: center;
+    }
+    .ar-get-call-form .ar-inline-form{
+        margin: 0 20px 0 0;
+    }
+    .ar-get-call-form .ar-inline-form input{
+        width: 260px;
+    }
+    .ar-get-call-form .title-wrap .-title ._text{
+        white-space: normal;
+        text-align: center;
+    }
+    .ar-get-call-form .title-wrap .-title ._border{
+        display: none;
+    }
+/*circle-wrapper*/
+    .circle-wrapper .circle{
+        width: 33%;
+        left: auto;
+        position: relative;
+        display: inline-block;
+    }
+    .circle-wrapper .circle .circle-figure .c-layout.c-layout-1{
+        border-radius: 150px;
+        color: #fff;
+    }
+    .circle-wrapper .circle .circle-capt{
+        padding: 0;
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
+    .circle-wrapper .circle .circle-figure{
+        width: auto;
+        height: 215px;
+    }
+    .circle-wrapper{
+        height: 265px;
+    }
+    .circle-wrapper .circle-1 .circle-figure .c-layout.c-layout-1{
+        width: 140px;
+        height: 140px;
+        font-size: 46px;
+        line-height: 71px;
+        background: #0099e0;
+        margin-top: 23px;
+    }
+    .circle-wrapper .circle-2 .circle-figure .c-layout.c-layout-1{
+        width: 120px;
+        height: 120px;
+        font-size: 40px;
+        line-height: 56px;
+        background: #3db3e9;
+        margin-top: 33px;
+    }
+    .circle-wrapper .circle-3 .circle-figure .c-layout.c-layout-1{
+        width: 100px;
+        height: 100px;
+        font-size: 34px;
+        line-height: 34px;
+        background: #57beed;
+        margin-top: 43px;
+    }
+    .c-layout{
+        display: none;
+    }
+    .c-layout-1{
+        display: block;
+    }
+/*howWeWork*/
+    #howWeWork .ar-works-item .caption{
+        background: none;
+        text-align: center;
+    }
+    #howWeWork .ar-works-item:first-child .caption td:before{
+        content: "1.";
+    }
+    #howWeWork .ar-works-item:nth-child(2) .caption td:before{
+        content: "2.";
+    }
+    #howWeWork .ar-works-item:nth-child(3) .caption td:before{
+        content: "3.";
+    }
+    #howWeWork .ar-works-item:last-child .caption td:before{
+        content: "4.";
+    }
+/*rews*/
+    #rews ul li{
+        width: 50%;
+    }
+    #rews figure{
+        width: 258px;
+        margin: 10px auto;
+    }
+/*statistic*/
+    .statistic .col-xs-3{
+        width: 50%;
+        min-height: 190px;
+    }
+    .statistic .ar-are-you-know .-caption{
+        font-size: 1.4em;
+    }
+/*filials*/
+    .ar-feleals{
+        background: none;
+        height: auto;
+        margin-bottom: 20px;
+        width: auto;
+    }
+    .ar-feleals .ar-point-list {
+        margin: 0 auto;
+        padding-left: 0;
+        width: 80%;
+    }
+    .filials .-points{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    /*circle-wrapper*/
+    .circle-wrapper{
+        height: auto;
+    }
+    .circle-wrapper .circle{
+         width: 100%;
+         margin-bottom: -15px;
+     }
+    .circle-wrapper .circle .circle-figure{
+        height: 215px;
+    }
+    .circle-wrapper .circle.circle-2 .circle-figure{
+        height: 205px;
+    }
+    .circle-wrapper .circle.circle-3 .circle-figure{
+        height: 195px;
+    }
+    .circle-wrapper .circle .circle-capt{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .circle-wrapper .circle .circle-figure .c-layout{
+        margin-top: 0;
+    }
+    /*first-form*/
+    .ar-get-call-form.-bordered{
+        margin: 0 15px;
+    }
+    form{
+        text-align: center;
+    }
+    .ar-get-call-form .ar-inline-form{
+        margin: 0 20px 0 0;
+    }
+    .ar-get-call-form .ar-inline-form input{
+        width: 210px;
+    }
+    .ar-get-call-form{
+        padding: 0 30px 15px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .header .row-fluid{
+        width: 50%;
+        float: left;
+    }
+    .header .call-back, .ar-head-logo{
+        width: 278px;
+        text-align: center;
+        float: none !important;
+    }
+    .ar-head-logo, .header .call-back{
+        margin: 0 auto 15px;
+    }
+    .header .call-back{
+        margin-bottom: 0;
+    }
+    .ar-head-logo .img-responsive{
+        display: inline-block;
+    }
+    .header .call-back .ar-phone{
+        margin: 0;
+    }
+    .ar-phone p{
+        margin-bottom: 0;
+    }
+    .header .call-back .pull-right, .header .call-back .pull-left{
+        float: none !important;
+    }
+    .ar-main-nav{
+        margin: 10px 0;
+    }
+    .ar-main-nav li, .ar-main-nav li:last-child{
+        float: none;
+        width: 170px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .header .nav > li > a{
+        font-size: 1.2em;
+        text-decoration: underline;
+        border-color: transparent;
+        line-height: 1.7em;
+    }
+/*Slogan*/
+    .hero{
+        background: url(../img/hero-pattern.png) top left repeat-x;
+    }
+    .hero .ar-slogan{
+        padding: 0 15px;
+    }
+    .hero, .hero .ar-slogan{
+        height: 300px;
+    }
+    .hero .ar-slogan h1{
+        font-size: 2.42857em;
+        line-height: 1.2em;
+        margin-bottom: 15px;
+    }
+    .hero .ar-slogan h1:after{
+        top: 24px;
+        margin: 0 auto;
+        left: 0;
+        position: relative;
+        text-align: center;
+    }
+    .ar-get-call-form .title-wrap .-title ._text{
+        line-height: 1.4em;
+        padding-top: 10px;
+    }
+/*forms*/
+    .ar-get-call-form.-bordered{
+        border: none;
+    }
+/*ar-screen*/
+    .ar-are-you-know .ar-screen h2{
+        margin-bottom: 0;
+    }
+/*howWeWork*/
+    #howWeWork .ar-works-item{
+        width: 50%;
+    }
+    .ar-works-item .caption{
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .ar-works-item .caption{
+        height: 54px;
+    }
+/*whyUs*/
+    #whyUs iframe{
+        height: 420px;
+    }
+/*filials*/
+    .ar-feleals .ar-point-list{
+        width: 100%;
+    }
+/*map*/
+    #map, #map .ymaps-map{
+        height: 420px !important;
+    }
+    .ar-overlay .contacts{
+        top: 18px;
+    }
+}
+
+@media  screen and (max-width: 680px) {
+/*forms*/
+    form .ar-button{
+        margin-top: 15px;
+    }
+    .ar-get-call-form .ar-inline-form{
+        border: none;
+        background: none;
+        width: 80%;
+    }
+    .ar-get-call-form .ar-inline-form input.form-phone,
+    .ar-get-call-form .ar-inline-form input.form-name{
+        border: 1px solid #888;
+        background-color: #fff;
+        display: block;
+        width: 100%;
+        padding: 5px 10px 5px 30px;
+        min-height: 40px;
+    }
+    .ar-get-call-form .ar-inline-form .separate{
+        background: none;
+    }
+    .confidential{
+        width: auto;
+    }
+/*count gays*/
+    .ar-screen.-count-gays{
+        background-repeat: repeat;
+    }
+/*map*/
+    .ar-screen.-map{
+        display: none;
+    }
+    .last-form{
+        border-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #pagewrap{
+        overflow-x: hidden;
+    }
+    .ar-screen-title, .ar-screen.-count-gays p.-text-big, .ar-screen.-count-gays h3{
+        font-size: 1.8em;
+    }
+    .ar-screen.-count-gays p{
+        font-size: 1.4em;
+    }
+/*Header*/
+    .header{
+        padding: 20px 0 0;
+    }
+    .header .row-fluid{
+        width: 100%;
+    }
+    .contheader li {
+    display:none;    
+    }
+/*Slogan*/
+    .hero, .hero .ar-slogan{
+        height: 240px;
+    }
+    .hero .ar-slogan h1{
+        font-size: 1.8em;
+        line-height: 1em;
+    }
+    .hero .ar-slogan h1:after{
+        width: 100%;
+        left: 0;
+    }
+    .hero-callback .ng-pristine{
+        margin-top: -20px;
+    }
+    .ar-get-call-form .title-wrap .-title ._text{
+        font-size: 25px;
+        padding: 10px 25px;
+    }
+    .ar-get-call-form{
+        padding: 0;
+    }
+    .confidential{
+        padding: 0 15px;
+    }
+/*form*/
+    .ar-get-call-form .ar-inline-form{
+        border: none;
+        background: none;
+        width: 100%;
+    }
+    .ar-get-call-form.-backgrounded{
+        background: none;
+        padding: 0;
+    }
+/*howWeWork*/
+    #howWeWork .ar-works-item{
+        width: 100%;
+    }
+/*whyUs*/
+    #whyUs iframe{
+        height: 320px;
+    }
+/*rews*/
+    #rews ul li{
+        width: 100%;
+    }
+/*statistic*/
+    .statistic .col-xs-3{
+        width: 100%;
+        min-height: 0;
+        margin-bottom: 5px;
+    }
+    .statistic .ar-are-you-know .-lable{
+        font-size: 4.5em;
+    }
+/*filials*/
+    .ar-feleals .ar-point-list{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .ar-feleals .ar-point-list li{
+        text-align: center;
+        list-style: none;
+        line-height: 2em;
+    }
+    .ar-feleals .ar-point-list > li > a:after{
+        background: none;
+    }
+/*footer*/
+    .footer .col-xs-4{
+        width: 320px;
+        margin: 10px auto 25px;
+    }
+    .footer .col-xs-4:first-child, .footer .col-xs-4:last-child{
+        margin-bottom: 10px;
+    }
+    .footer  *{
+        float: none !important;
+        text-align: center;
+    }
+    .footer .img-responsive{
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 460px) {
+    .ar-screen-title{
+        font-size: 1.5em;
+    }
+    .ar-screen-title.-with-line:after, .ar-screen-title.-with-line:before{
+        display: none;
+    }
+/*slogan*/
+    .hero .ar-slogan h1{
+        font-size: 1.5em;
+        line-height: 1.3em;
+    }
+    .hero .ar-slogan p{
+        font-size: 1.4em;
+    }
+    .ar-get-call-form .title-wrap .-title ._text{
+        font-size: 20px;
+        line-height: 18px;
+        padding-top: 40px;
+    }
+/*whyUs*/
+    #whyUs iframe{
+        height: 250px;
+    }
+
+    .ar-screen.-count-gays h3:after, .ar-screen.-count-gays h3:before{
+        display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+/*slogan*/
+    .hero .ar-slogan h1{
+        font-size: 1.27em;
+        line-height: 1.3em;
+    }
+/*whyUs*/
+    #whyUs iframe{
+        height: 200px;
+    }
+
+}
